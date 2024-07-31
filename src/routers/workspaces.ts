@@ -54,6 +54,7 @@ workspace.post(
         workspace: {
           id: workspaceId,
           name: workspace.workspacename,
+          email: workspace.email,
           session: session,
         },
       });
